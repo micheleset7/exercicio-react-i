@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# React I
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Olá, este é meu primeiro projeto React iniciado do zero!
 
-## Available Scripts
+O projeto faz parte da entrega do exercício semanal que tem o  objetivo de  desenvolver na prática a didática passada na aula de React-I do Reprograma.
 
-In the project directory, you can run:
+Comecei  usando dois aquivos existente, o App.js e o Index.js, que foram devidamente modificados para receber os novos componentes do projeto.
+Para da sequencia ao projeto, criei uma pasta componentes dentro do src e dentro dela criei os seguintes arquivos para serem usados:
 
-### `npm start`
+### Titulo- 
+Criei um componete titulo  usando função que recebeu uma props como parametro. Retornando um h1 para um titulo e h2 para um subtitulo, exportei com default e o nome da função criada. Importei passando o caminho no aquivo no App.js para ser renderizado na tela.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### JsonInforme- 
+Criei um  arquivo que simula o JSON, (onde tem dodas as informações a serem usadas)  para retornar os elementos que quero renderizar na tela, contendo 4 chaves e valores: id, nome, descrição e imagem. Exportei e no App.js importei como seguindo os procedimento de import e exports.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Lista- 
+O componente Lista foi criado para obter as informaçoes vindo do aquivo que criei simulando o JSON. Usando map() pude pegar esses dadaos e colocar dentro de uma <ol> as informaçoes, usando tags html que foram:
+ <img> para inserir a imagem,
+ <h2> para o nome e <p> para descrição.
+ O id usei na tag ol colocando dentro de uma key, pois toda vez que usamos lista (array) no react ele pede uma chave única. Nas tags criei uma className para fazer um style.ccs.
 
-### `npm test`
+### Estilo- 
+Foi criado um componente para colocar timidamente o style.ccs. Nele coloquei cores, modifiquei a font, também o posicionamento e tamanho.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Footer-
+ Foi criado só para colocar meu nome como criador. 

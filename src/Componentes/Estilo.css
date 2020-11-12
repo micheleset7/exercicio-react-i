@@ -1,0 +1,54 @@
+
+body{
+    background-color: darkgray;
+    font-family: sans-serif;
+}
+h2{
+    padding: 10px;
+    color:rgb(61, 20, 20);
+}
+.descricao{
+    color:rgb(92, 39, 39);
+}
+
+.titulo{
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    padding-top: 25px;
+    color:rgb(61, 20, 20);
+}
+.subTitulo{   
+    color:rgb(92, 39, 39);
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+
+}
+.div{
+    background-color: darkgray;
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+.img{
+    padding: 20px;
+    width: 580px;
+    border: 1px, solid, brown;
+    border-radius: 15px;
+}
+.paragrafo{
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.footer{
+    height: 40px;;
+    background: black;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 15px; */
+    
+}
