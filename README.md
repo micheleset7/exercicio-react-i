@@ -20,8 +20,7 @@ Criei um  arquivo que simula o JSON, (onde tem dodas as informações a serem us
 ### Lista- 
 O componente Lista foi criado para obter as informaçoes vindo do aquivo que criei simulando o JSON. Usando map() pude pegar esses dadaos e colocar dentro de uma <ol> as informaçoes, usando tags html que foram:
  <img> para inserir a imagem,
- <h2> para o nome e <p> para descrição.
- O id usei na tag ol colocando dentro de uma key, pois toda vez que usamos lista (array) no react ele pede uma chave única. Nas tags criei uma className para fazer um style.ccs.
+ <h2> para o nome e <p> para descrição. O id usei na tag ol colocando dentro de uma key, pois toda vez que usamos lista (array) no react ele pede uma chave única. Nas tags criei uma className para fazer um style.ccs.
 
 ### Estilo- 
 Foi criado um componente para colocar timidamente o style.ccs. Nele coloquei cores, modifiquei a font, também o posicionamento e tamanho.
